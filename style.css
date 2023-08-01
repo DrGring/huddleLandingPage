@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    width: auto;
+    height: 1600px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(257, 40%, 49%);
+    color: #fff;
+    background-image: url(images/bg-mobile.svg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    width: 535px;
+    height: 112px;
+    font-family: 'Poppins',sans-serif;
+    line-height: 55px;
+    margin-left: 20px;
+    font-size: 45px;
+}
+p {
+    color: gainsboro;
+    width: 580px;
+    height: 225px;
+    font-size: 31px;
+    font-family: 'Open Sans', sans-serif;
+}
+button {
+    width: 404px;
+    height: 81px;
+    font-size: 25px;
+    border-radius: 45px;
+    border: transparent;
+    color: hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 124px;
+}
+button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+main {
+
+    width: 599px;
+    height: 1448px;
+}
+.section__header {
+    width: 597px;
+    height: 598px;
+    margin-bottom: 137px;
+}
+.section__header__icon {
+    margin-bottom: 140px;
+}
+.section__header__image {
+    width: 594px;
+    height: 419px;
+}
+
+.section__article {
+    text-align: center;
+    width: 597px;
+    height: 711px;
+}
+.section__article__icons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+}
+.section__article__icons img {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+#section__article__icon:hover {
+   fill: black;
+   background-color: aqua;
+}
+/*
+.section__article__icon__facebook:hover {
+    border:  rgb(230, 100, 122) 2px solid;
+    background-color: rgb(230, 100, 122);
+}
+.section__article__icon__twitter:hover {
+    border:  rgb(222, 229, 236) 2px solid;
+    background-color: rgb(222, 229, 236);
+}
+.section__article__icon__instagram:hover {
+    border:  rgb(165, 111, 120) 2px solid;
+    background-color: hsl(257, 40%, 49%);
+    color: rgb(10, 113, 231);
+}*/
+@media only screen and (min-width:1300px) {
+
+    body {
+        display: flex;
+        align-items: center;
+        height: 736px;
+        background-image: url(images/bg-desktop.svg);
+        background-position-x: center;
+        background-repeat: no-repeat;
+    }
+    main {
+        display: flex;
+        width: 1290px;
+        height: 696px;
+    }
+    p {
+        color: gainsboro;
+        width: 512px;
+        height: 74px;
+        font-size: 18px;
+    }
+    h1 {
+        margin-left: 0;
+        font-size: 40px;
+    }
+    button {
+        width: 203px;
+        font-size: 18px;
+        height: 56px;
+        margin-bottom: 180px;
+    }
+    .section__header {
+        margin-right: 56px;
+        width: 699px;
+        height: 698px;
+    }
+    .section__header__icon {
+        margin-bottom: 100px;
+    }
+    .section__header__image {
+        width: 100%;
+        height: 499px;
+    }
+
+
+    .section__article {
+        text-align: initial;
+        margin-top: 186px;
+        width: 532px;
+        height: 514px;
+    }
+    .section__article__icons {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-left: 374px;
+        width: 157px;
+        height: 46px;
+    }
+    .section__article__icons img {
+        margin-right: 14px;
+        width: 40px;
+        height: 40px;
+    }
+    
+
+
+}
+
+
